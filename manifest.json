@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Modify Gmail CSS",
+  "version": "1.0.0",
+  "description": "Gmail visual change extension",
+  "author": "Reginaldo Morais",
+
+  "icons": {
+    "256": "gmail-css-xxxhdpi.png",
+    "128": "gmail-css-xxhdpi.png",
+    "48": "gmail-css-mdpi.png"
+  },
+
+  "permissions": ["https://mail.google.com/mail/*"],
+
+  "content_scripts": [{
+    "matches": ["https://mail.google.com/mail/*"],
+    "css": ["styles.css"]
+  }]
+}
