@@ -1,0 +1,54 @@
+body {
+  width: 220px;
+}
+
+h1 {
+  font-size: .8rem;
+  text-align: center;
+}
+
+p {
+  font-size: .7rem;
+  margin: .8rem .8rem 1rem;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.btn {
+  padding: .5rem 1rem;
+  background: #fff;
+  border: 0 none;
+  font-size: .7rem;
+  width: 100px;
+  color: #000;
+  border-radius: 50px;
+  border: 1px solid #000;
+  margin: .2rem;
+  cursor: pointer;
+}
+
+.btn.light {
+  background: #e0e0e0;
+  color: #525252;
+  border: 1px solid #bfbfbf;
+}
+
+.btn.light:hover,
+.btn.light:focus {
+  background: #d2d2d2;
+  color: #212121;
+}
+
+.btn.dark {
+  background: #38484c;
+  color: #b9b9b9;
+  border: 1px solid #000;
+}
+
+.btn.dark:hover,
+.btn.dark:focus {
+  background: #253235;
+  color: #eaeaea;
+}
