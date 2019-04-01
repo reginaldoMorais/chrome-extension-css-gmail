@@ -442,3 +442,18 @@ td.oZ-x3::before {
   background: #555 !important;
   border-radius: 50px !important;
 }
+
+
+
+/* 
+  Buttom
+*/
+
+.dark-mode .Bn {
+  background: #253235 !important;
+  opacity: .8 !important;
+}
+
+.dark-mode .Bn:hover {
+  opacity: 1 !important;
+}
