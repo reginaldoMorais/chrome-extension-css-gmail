@@ -196,20 +196,20 @@ td.oZ-x3::before {
   Busca
 */
 
-.dark-mode form.gb_Ze {
+.dark-mode form.gb_te {
   background: #233033 !important;
   border: 0 none !important;
 }
 
-.dark-mode form.gb_Ze:hover {
+.dark-mode form.gb_te:hover {
   background: #2a383c !important;
 }
 
-.dark-mode .gb_Ze input::placeholder {
+.dark-mode .gb_te input::placeholder {
   color: #44555a !important;
 }
 
-.dark-mode .gb_Ze input {
+.dark-mode .gb_te input {
   color: #869396 !important;
 }
 
