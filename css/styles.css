@@ -502,6 +502,7 @@ table.gssb_m tr:last-child .gssb_a {
 .dark-mode ::-webkit-scrollbar {
   background-color: #1b2629 !important;
   width: 5px !important;
+  height: 8px !important;
   border-radius: 0 !important;
 }
 
