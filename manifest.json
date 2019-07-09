@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Modify Gmail CSS",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Gmail visual change extension",
   "author": "Reginaldo Morais",
 
@@ -18,11 +18,9 @@
     "default_popup": "popup.html"
   },
 
-  "content_scripts": [
-    {
-      "matches": ["https://mail.google.com/mail/*"],
-      "js": ["js/jquery-3.3.1.min.js", "js/load.js"],
-      "css": ["css/styles.css"]
-    }
-  ]
+  "content_scripts": [{
+    "matches": ["https://mail.google.com/mail/*"],
+    "js": ["js/jquery-3.3.1.min.js", "js/load.js"],
+    "css": ["css/styles.css"]
+  }]
 }

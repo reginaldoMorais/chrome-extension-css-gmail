@@ -122,6 +122,7 @@ td.oZ-x3::before {
 
 ::-webkit-scrollbar {
   width: 3px !important;
+  height: 8px !important;
   border-radius: 50px !important;
 }
 
@@ -217,12 +218,12 @@ table.gssb_m tr:last-child .gssb_a {
 
 /* Header */
 
-.dark-mode header.gb_ja {
+.dark-mode header.gb_ka {
   background: #1b2629 !important;
   color: #fff !important;
 }
 
-.dark-mode .gb_ja svg,
+.dark-mode .gb_ka svg,
 .dark-mode .gb_8b svg {
   color: #989898 !important;
 }
