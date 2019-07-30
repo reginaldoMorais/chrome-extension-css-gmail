@@ -218,12 +218,12 @@ table.gssb_m tr:last-child .gssb_a {
 
 /* Header */
 
-.dark-mode header.gb_ka {
+.dark-mode header {
   background: #1b2629 !important;
   color: #fff !important;
 }
 
-.dark-mode .gb_ka svg,
+.dark-mode header svg,
 .dark-mode .gb_8b svg {
   color: #989898 !important;
 }
