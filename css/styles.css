@@ -11,6 +11,10 @@
   padding: 1rem 3rem 3rem !important;
 }
 
+.AO .Nm {
+  margin-bottom: 4rem !important;
+}
+
 /* 
   Email list
 */
@@ -538,4 +542,37 @@ table.gssb_m tr:last-child .gssb_a {
 
 .dark-mode .Bn:hover {
   opacity: 1 !important;
+}
+
+
+/*
+  Calendar Side
+*/
+
+.cOoA8d {
+  border-bottom: #1b2629 1px solid;
+  background-color: #2a383c;
+}
+
+.cBs4Te {
+  border-bottom: #253235 1px solid;
+  background-color: #3d4c50;
+}
+
+.YPcgwf {
+  background-color: #303e42;
+}
+
+.NzFAQe {
+  color: #b3b3b3;
+}
+
+.GP8Q7c {
+  background-color: #3d4c50;
+}
+
+.l3F1ye,
+.l3F1ye .TpQm9d {
+  color: #ffffff;
+  background: #00d7ff;
 }
