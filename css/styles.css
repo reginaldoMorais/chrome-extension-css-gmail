@@ -36,21 +36,21 @@
   margin-top: 0;
 }
 
-.zA>.PE.PF::before {
+.zA > .PE.PF::before {
   left: 0 !important;
   width: 5px !important;
   background-color: #00d7ff !important;
 }
 
-.zA.x7>.PE.PF::before {
+.zA.x7 > .PE.PF::before {
   background-color: #a79d00 !important;
 }
 
-.zA.aps>.PE.PF::before {
+.zA.aps > .PE.PF::before {
   background-color: #00a5c3 !important;
 }
 
-.zA>td.oZ-x3 {
+.zA > td.oZ-x3 {
   padding: 0 10px 0 20px !important;
 }
 
@@ -178,12 +178,12 @@ td.oZ-x3::before {
 }
 
 .SK.ZF-zT {
-  border-radius: .5rem !important;
+  border-radius: 0.5rem !important;
 }
 
-.ZF-zT>.ZZ {
+.ZF-zT > .ZZ {
   box-shadow: 0 0.5rem 2rem 0rem rgba(0, 0, 0, 0.3) !important;
-  border-radius: .5rem !important;
+  border-radius: 0.5rem !important;
 }
 
 td.gssb_e {
@@ -192,31 +192,28 @@ td.gssb_e {
   top: 10px;
 
   box-shadow: 0 0.5rem 2rem 0rem rgba(0, 0, 0, 0.3) !important;
-  border-radius: .5rem !important;
+  border-radius: 0.5rem !important;
 }
 
 table.gssb_m {
-  border-radius: .5rem !important;
+  border-radius: 0.5rem !important;
 }
 
 table.gssb_m tr .gssb_a.gsfs {
-  border-radius: .5rem !important;
+  border-radius: 0.5rem !important;
 }
 
 table.gssb_m tr:last-child .gssb_a.gsfs {
-  padding: .5rem 0 !important;
+  padding: 0.5rem 0 !important;
 }
 
-table.gssb_m .gssb_i>.gssb_a {
+table.gssb_m .gssb_i > .gssb_a {
   border-left: 2px solid #ffffff !important;
 }
 
 table.gssb_m tr:last-child .gssb_a {
   border-left: 0 none !important;
 }
-
-
-
 
 /* DARK  */
 
@@ -261,7 +258,6 @@ table.gssb_m tr:last-child .gssb_a {
   Busca
 */
 
-
 .dark-mode header form {
   background: #233033 !important;
   border: 0 none !important;
@@ -283,7 +279,7 @@ table.gssb_m tr:last-child .gssb_a {
   background-color: rgb(61, 76, 80) !important;
 }
 
-.dark-mode .gb_qe,
+/* .dark-mode .gb_qe,
 .dark-mode .gb_2e {
   background: transparent !important;
 }
@@ -292,7 +288,7 @@ table.gssb_m tr:last-child .gssb_a {
 .dark-mode .gb_2e:hover {
   background: transparent !important;
   border: 0 none !important;
-}
+} */
 
 /*
 .dark-mode .gssb_e {
@@ -345,11 +341,11 @@ table.gssb_m tr:last-child .gssb_a {
 
 /* Content */
 
-.dark-mode .no>.nH {
+.dark-mode .no > .nH {
   background: #253235 !important;
 }
 
-.dark-mode .nH.bkL>.no {
+.dark-mode .nH.bkL > .no {
   margin-top: 0 !important;
   padding-top: 1rem !important;
   background: #2a383c !important;
@@ -359,9 +355,9 @@ table.gssb_m tr:last-child .gssb_a {
 .dark-mode .nH.hx,
 .dark-mode .nH.aHU,
 .dark-mode .nH.byY,
-.dark-mode .nH.byY>.nH,
+.dark-mode .nH.byY > .nH,
 .dark-mode .nH.ao9,
-.dark-mode .nH.if>.nH {
+.dark-mode .nH.if > .nH {
   background: #ffffff !important;
 }
 
@@ -400,17 +396,17 @@ table.gssb_m tr:last-child .gssb_a {
 
 /* Buttom Write */
 
-.dark-mode .z0>.L3 {
+.dark-mode .z0 > .L3 {
   background-color: #1b2629 !important;
   color: #fff !important;
 }
 
-.dark-mode .z0>.L3:hover,
-.dark-mode .z0>.L3:focus {
+.dark-mode .z0 > .L3:hover,
+.dark-mode .z0 > .L3:focus {
   background-color: #456167 !important;
 }
 
-.dark-mode .wT>.n3 .byl:first-child .aim:first-child .nZ {
+.dark-mode .wT > .n3 .byl:first-child .aim:first-child .nZ {
   background-color: #456167 !important;
 }
 
@@ -432,17 +428,17 @@ table.gssb_m tr:last-child .gssb_a {
   border-bottom: 1px solid #1b2629 !important;
 }
 
-.dark-mode .byl .TO.nZ>.aHS-bnt .n0,
-.dark-mode .nZ>.aHS-bnt .bsU {
+.dark-mode .byl .TO.nZ > .aHS-bnt .n0,
+.dark-mode .nZ > .aHS-bnt .bsU {
   color: #ff6060 !important;
   font-weight: normal !important;
 }
 
-.dark-mode .TO .nU>.n0,
-.dark-mode .TO.NQ .nU>.n0,
-.dark-mode .TO.nZ .nU>.n0,
-.dark-mode .ah9>.CJ,
-.dark-mode .n3>.CL>.CK {
+.dark-mode .TO .nU > .n0,
+.dark-mode .TO.NQ .nU > .n0,
+.dark-mode .TO.nZ .nU > .n0,
+.dark-mode .ah9 > .CJ,
+.dark-mode .n3 > .CL > .CK {
   color: #7f9096 !important;
 }
 
@@ -456,22 +452,22 @@ table.gssb_m tr:last-child .gssb_a {
   background-color: #456167 !important;
 }
 
-.dark-mode .T-I-JW>.asa::before {
+.dark-mode .T-I-JW > .asa::before {
   background-color: rgba(91, 100, 125, 0.5) !important;
 }
 
 .dark-mode .G-Ni .T-Jo.T-Jo-JW::before,
-.dark-mode .G-Ni .J-JN-M-I-JW :not(.T-Jo-JW)+.G-asx::before,
-.dark-mode .G-Ni .T-I-JW>.G-asx::before {
+.dark-mode .G-Ni .J-JN-M-I-JW :not(.T-Jo-JW) + .G-asx::before,
+.dark-mode .G-Ni .T-I-JW > .G-asx::before {
   background-color: rgba(91, 100, 125, 0.5) !important;
 }
 
-.dark-mode .Di>.amH::before {
+.dark-mode .Di > .amH::before {
   background-color: transparent !important;
 }
 
-.dark-mode .Di>.amH.J-JN-I-Je::before,
-.dark-mode .Di>.amH.J-JN-I-Kq::before {
+.dark-mode .Di > .amH.J-JN-I-Je::before,
+.dark-mode .Di > .amH.J-JN-I-Kq::before {
   background-color: rgba(91, 100, 125, 0.5) !important;
   opacity: 1;
 }
@@ -543,7 +539,6 @@ table.gssb_m tr:last-child .gssb_a {
 .dark-mode .Bn:hover {
   opacity: 1 !important;
 }
-
 
 /*
   Calendar Side
